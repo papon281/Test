@@ -9,35 +9,16 @@ public class Vehicle
     private String turbo;
     private int weight;
 
-    public Vehicle(String carType, String model, String engineType, String enginePower, String tyreSize)
+    public Vehicle(String carType, String model, String engineType, String turbo, String enginePower, String tyreSize, int weight)
     {
         this.carType = carType;
         this.model = model;
         this.engineType = engineType;
         this.enginePower = enginePower;
         this.tyreSize = tyreSize;
-
-    }
-
-    public Vehicle(String carType, String model, String engineType, String turbo, String enginePower, String tyreSize)
-    {
-        this.carType = carType;
-        this.model = model;
-        this.engineType = engineType;
         this.turbo = turbo;
-        this.enginePower = enginePower;
-        this.tyreSize = tyreSize;
-
-    }
-
-    public Vehicle(String carType, String model, String engineType, String enginePower, String tyreSize, int weight)
-    {
-        this.carType = carType;
-        this.model = model;
-        this.engineType = engineType;
-        this.enginePower = enginePower;
-        this.tyreSize = tyreSize;
         this.weight = weight;
+
     }
 
     //getter method
